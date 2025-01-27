@@ -41,11 +41,12 @@ export default function Blog() {
         variant="h4"
         fontWeight="bold"
         textAlign="center"
-        sx={{ mb: 4 }}
+        sx={{ mb: 1 }}
+        style={{float:"left", marginTop:"30px"}}
       >
         Latest Blog Posts
       </Typography>
-      <Grid container spacing={4}>
+      <Grid container spacing={4} >
         {blogPosts.map((post) => (
           <Grid item xs={12} sm={6} md={4} key={post.id}>
             <Card sx={{ boxShadow: 3, transition: "0.3s", "&:hover": { transform: "scale(1.05)" } }}>

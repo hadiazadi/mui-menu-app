@@ -101,7 +101,7 @@ export default function Home() {
 
        
         {/* بخش درباره ما (About Us Section) */}
-        <Box sx={{ py: 4, px: 4, backgroundColor: "pink", color: "white", marginTop:"70px" }}>
+        <Box sx={{ py: 4, px: 4,  backgroundColor: "#f5f5f5", color: "black", marginTop:"70px", paddingLeft:"73px" }}>
           <Grid container spacing={4} alignItems="center">
             <Grid item xs={12} md={6}>
               <img
@@ -109,11 +109,11 @@ export default function Home() {
                 alt=""
                 style={{ width: "100%", borderRadius: "8px", boxShadow: "0px 4px 12px rgba(0,0,0,0.1)" }} />
             </Grid>
-            <Grid item xs={12} md={6} style={{paddingTop:"460px"}}>
+            <Grid item xs={12} md={6} style={{paddingTop:"448px"}}>
               <Typography variant="h4" fontWeight="bold" sx={{ mb: 2 }}>
                 About Us
               </Typography>
-              <Typography variant="body1" color="white" sx={{ mb: 4 }}>
+              <Typography variant="body1" color="black" sx={{ mb: 4 }}>
                 We are a company committed to delivering the best services for our customers.
                 Our team is dedicated to creating amazing experiences tailored to your needs.
               </Typography>

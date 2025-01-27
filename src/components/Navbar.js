@@ -1,5 +1,5 @@
 import React from "react";
-import { AppBar, Toolbar, Typography, Button, Box } from "@mui/material";
+import { AppBar, Toolbar,  Button, Box } from "@mui/material";
 import { Home, Info, Mail, Article, Login } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 
@@ -39,12 +39,12 @@ export default function Navbar() {
           >
             Blog
           </Button>
-          <Button style={{marginLeft:"700px"}}
+          <Button style={{marginLeft:"760px"}}
             startIcon={<Login />}
             color="inherit"
             onClick={() => navigate("/login")}
           >
-            Login/SignUp
+            Login
           </Button>
 
 
